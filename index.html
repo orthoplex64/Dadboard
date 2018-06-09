@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dadboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <table id="tableImages">
+      <tbody>
+        <tr>
+          <td id="tdSorry" onclick="var audio = document.getElementById('audioSorry'); audio.currentTime = 0; audio.play();">
+          </td>
+          <td id="tdDora" onclick="var audio = document.getElementById('audioDora'); audio.currentTime = 0; audio.play();">
+          </td>
+          <td id="tdGo" onclick="var audio = document.getElementById('audioGo'); audio.currentTime = 0; audio.play();">
+          </td>
+        </tr>
+        <tr>
+          <td id="tdNowhere" onclick="var audio = document.getElementById('audioNowhere'); audio.currentTime = 0; audio.play();">
+          </td>
+          <td id="tdToo" onclick="var audio = document.getElementById('audioToo'); audio.currentTime = 0; audio.play();">
+          </td>
+          <td id="tdIts" onclick="var audio = document.getElementById('audioIts'); audio.currentTime = 0; audio.play();">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <audio id="audioDora" src="sounds/dora.mp3"></audio>
+    <audio id="audioSorry" src="sounds/sorry.mp3"></audio>
+    <audio id="audioGo" src="sounds/go.mp3"></audio>
+    <audio id="audioNowhere" src="sounds/nowhere.mp3"></audio>
+    <audio id="audioToo" src="sounds/too.mp3"></audio>
+    <audio id="audioIts" src="sounds/its.mp3"></audio>
+  </body>
+</html>

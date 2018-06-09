@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#tableImages {
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}
+
+#tableImages td {
+  background-size: cover;
+  background-position: center;
+}
+
+#tdSorry {
+  background-image: url(images/sorry.jpg);
+}
+
+#tdDora {
+  background-image: url(images/dora.jpg);
+}
+
+#tdGo {
+  background-image: url(images/go.jpg);
+}
+
+#tdNowhere {
+  background-image: url(images/nowhere.jpg);
+}
+
+#tdToo {
+  background-image: url(images/too.jpg);
+}
+
+#tdIts {
+  background-image: url(images/its.jpg);
+}
