@@ -5,24 +5,25 @@
     <title>Dadboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
   </head>
   <body>
     <table id="tableImages">
       <tbody>
         <tr>
-          <td id="tdSorry" onclick="var audio = document.getElementById('audioSorry'); audio.currentTime = 0; audio.play();">
+          <td id="tdSorry" onclick="playSound('audioSorry');">
           </td>
-          <td id="tdDora" onclick="var audio = document.getElementById('audioDora'); audio.currentTime = 0; audio.play();">
+          <td id="tdDora" onclick="playSound('audioDora');">
           </td>
-          <td id="tdGo" onclick="var audio = document.getElementById('audioGo'); audio.currentTime = 0; audio.play();">
+          <td id="tdGo" onclick="playSound('audioGo');">
           </td>
         </tr>
         <tr>
-          <td id="tdNowhere" onclick="var audio = document.getElementById('audioNowhere'); audio.currentTime = 0; audio.play();">
+          <td id="tdNowhere" onclick="playSound('audioNowhere');">
           </td>
-          <td id="tdToo" onclick="var audio = document.getElementById('audioToo'); audio.currentTime = 0; audio.play();">
+          <td id="tdToo" onclick="playSound('audioToo');">
           </td>
-          <td id="tdIts" onclick="var audio = document.getElementById('audioIts'); audio.currentTime = 0; audio.play();">
+          <td id="tdIts" onclick="playSound('audioIts');">
           </td>
         </tr>
       </tbody>
