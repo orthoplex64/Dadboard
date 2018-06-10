@@ -18,25 +18,25 @@ body {
 }
 
 #tdSorry {
-  background-image: url(images/sorry.jpg);
+  background-image: url("images/sorry.jpg");
 }
 
 #tdDora {
-  background-image: url(images/dora.jpg);
+  background-image: url("images/dora.jpg");
 }
 
 #tdGo {
-  background-image: url(images/go.jpg);
+  background-image: url("images/go.jpg");
 }
 
 #tdNowhere {
-  background-image: url(images/nowhere.jpg);
+  background-image: url("images/nowhere.jpg");
 }
 
 #tdToo {
-  background-image: url(images/too.jpg);
+  background-image: url("images/too.jpg");
 }
 
 #tdIts {
-  background-image: url(images/its.jpg);
+  background-image: url("images/its.jpg");
 }
